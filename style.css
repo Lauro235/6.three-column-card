@@ -11,14 +11,121 @@
   font-weight: 700;
 }
 
+/* variables */
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --v-dark-cyan: hsl(179, 100%, 13%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 .attribution {
-  font-size: 1rem;
+  margin: 2rem 0 0;
+  font-size: 1.25rem;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
+.card {
+  width: min(90%, 750px);
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+.card__btn {
+  width: min(50%, 160px);
+  border: none;
+  border-radius: 20px;
+  padding: .5rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card__heading {
+  color: hsl(0, 0%, 95%);
+}
+
 .card__image {
   width: 60px;
+}
+
+.card__text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* card colours */
+
+.card--orange {
+  background-color: var(--orange);
+}
+
+.card__btn--orange {
+  color: var(--orange);
+}
+
+.card--cyan1 {
+  background-color: var(--dark-cyan);
+}
+
+.card__btn--cyan1 {
+  color: var(--dark-cyan);
+}
+
+.card--cyan2 {
+  background-color: var(--v-dark-cyan);
+}
+
+.card__btn--cyan2 {
+  color: var(--v-dark-cyan);
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+@media screen and (min-width:900px) {
+
+  .attribution {
+    margin: 2rem 0 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
