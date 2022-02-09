@@ -45,9 +45,15 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+/* Card formatting */
+
 .card {
   width: 100%;
-  padding: 1.2rem;
+  padding: 2.3rem 1.6rem;
+}
+
+.card__inner-container {
+  width: min(100%, 400px);
 }
 
 .card__btn {
@@ -71,6 +77,7 @@ body {
 .card__text {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'lexend';
+  width: min(100%, 350px);
 }
 
 /* card colours */
@@ -127,7 +134,6 @@ body {
     height: max-content;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
     padding: 2rem 0;
     justify-content: center;
     align-items: center;
