@@ -36,9 +36,13 @@ body {
 }
 
 .attribution {
-  margin: 2rem 0 0;
+  width: min(80%, 600px);
+  font-family: 'big-shoulders';
+  margin: 2rem auto 0;
   font-size: 1.25rem;
   text-align: center;
+  letter-spacing: .1rem;
+  line-height: 2rem;
 }
 
 .attribution a {
