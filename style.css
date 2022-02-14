@@ -58,11 +58,17 @@ body {
 
 .card__btn {
   width: min(50%, 160px);
-  border: none;
+  outline: 2px solid hsl(0, 0%, 95%);
   border-radius: 20px;
   padding: .8rem .5rem;
   background-color: hsl(0, 0%, 95%);
   font-family: 'lexend';
+}
+
+.card__btn:hover {
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0);
+  color: hsl(0, 0%, 95%);
 }
 
 .card__heading {
@@ -78,7 +84,10 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'lexend';
   width: min(100%, 350px);
+  margin-bottom: 3rem;
 }
+
+
 
 /* card colours */
 
