@@ -126,7 +126,7 @@ body {
 }
 
 .main-content {
-  width: min(90%, 700px);
+  width: min(90%, 900px);
   border-radius: 10px;
   overflow: hidden;
   margin: 0 auto;
@@ -139,11 +139,16 @@ body {
   }
 
   .attribution {
-    align-self: flex-end;
+
+    position: absolute;
+    bottom: 4rem;
+    left: 25%;
+    right: 25%;
+
+    /* align-self: flex-end;
     margin: 2rem auto 0;
     font-size: 1.5rem;
-    text-align: center;
-    /* outline: 2px solid black; */
+    text-align: center; */
   }
 
   .card {
@@ -151,9 +156,9 @@ body {
     margin: 0;
   }
 
-  .container {
+  /* .container {
     align-self: center;
-  }
+  } */
 
   .main-content {
     display: grid;
