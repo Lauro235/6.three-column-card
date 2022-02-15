@@ -28,6 +28,7 @@ html {
 }
 
 body {
+  height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -95,8 +96,6 @@ body {
   margin-bottom: 3rem;
 }
 
-
-
 /* card colours */
 
 .card--orange {
@@ -148,7 +147,6 @@ body {
   }
 
   .container {
-    height: max-content;
     display: flex;
     flex-direction: column;
     padding: 2rem 0;
