@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Lauro235/6.three-column-card)
-- Live Site URL: [Add live site URL here](https://lauro235.github.io/6.three-column-card/)
+- Solution URL: [My solution repository](https://github.com/Lauro235/6.three-column-card)
+- Live Site URL: [My live site](https://lauro235.github.io/6.three-column-card/)
 
 ## My process
 
